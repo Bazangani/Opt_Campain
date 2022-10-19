@@ -15,12 +15,12 @@ def test_no_dat():
 
 
 def test_one_exampl():
-    assert len(elk_connect('com.amadeus.tis.TestFakeServer')) == 636
+    assert len(elk_connect('...')) == ...
 
 
 
 def test_one_example():
-    assert len(elk_connect('spocktest.geb.test.short_life_cycle.RRC222.CommandPage_Banners_On_GG_AIR_Cryptic_Spec')) == 24
+    assert len(elk_connect('...')) == ...
 
 
 
