@@ -24,7 +24,7 @@ def workflow_test():
     with mock.patch('execution_time.main.database') as mock_database:
         execution_time.workflow()
 
-    assert mock_database.insert.assert_called_once_with(('pouet',))
+    assert mock_database.insert.assert_called_once_with(('...',))
 
 
 def test_new_test():
